@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head class="head">
+    <meta charset="UTF-8" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <script defer src="./memory-match.js"></script>
+  </head>
+
+  <body>
+    <header><h1 class="header">Memory Match Game</h1></header>
+    <section class="memory-game">
+      <div class="memory-card" data-framework="Aston Martin">
+        <img
+          class="front-face"
+          src="./img/astonmartin.svg"
+          alt="Aston Martin"
+        />
+        <img class="back-face" />
+      </div>
+      <div class="memory-card" data-framework="Aston Martin">
+        <img
+          class="front-face"
+          src="./img/astonmartin.svg"
+          alt="Aston Martin"
+        />
+        <img class="back-face" />
+      </div>
+
+      <div class="memory-card" data-framework="Ferrari">
+        <img class="front-face" src="./img/ferrari.svg" alt="Ferrari" />
+        <img class="back-face" />
+      </div>
+      <div class="memory-card" data-framework="Ferrari">
+        <img class="front-face" src="./img/ferrari.svg" alt="Ferrari" />
+        <img class="back-face" />
+      </div>
+
+      <div class="memory-card" data-framework="Lamborghini">
+        <img class="front-face" src="./img/lamborghini.svg" alt="Lamborghini" />
+        <img class="back-face" />
+      </div>
+      <div class="memory-card" data-framework="Lamborghini">
+        <img class="front-face" src="./img/lamborghini.svg" alt="Lamborghini" />
+        <img class="back-face" />
+      </div>
+
+      <div class="memory-card" data-framework="Audi">
+        <img class="front-face" src="./img/audi.svg" alt="Audi" />
+        <img class="back-face" />
+      </div>
+      <div class="memory-card" data-framework="Audi">
+        <img class="front-face" src="./img/audi.svg" alt="Audi" />
+        <img class="back-face" />
+      </div>
+
+      <div class="memory-card" data-framework="Bugatti">
+        <img class="front-face" src="./img/bugatti.svg" alt="Bugatti" />
+        <img class="back-face" />
+      </div>
+      <div class="memory-card" data-framework="Bugatti">
+        <img class="front-face" src="./img/bugatti.svg" alt="Bugatti" />
+        <img class="back-face" />
+      </div>
+
+      <div class="memory-card" data-framework="McLaren">
+        <img class="front-face" src="./img/mclaren.svg" alt="McLaren" />
+        <img class="back-face" />
+      </div>
+      <div class="memory-card" data-framework="McLaren">
+        <img class="front-face" src="./img/mclaren.svg" alt="McLaren" />
+        <img class="back-face" />
+      </div>
+    </section>
+    <section>
+      <div class="moves" id="moves"></div>
+      <div class="timer" id="timer"></div>
+    </section>
+    <button class="button" onclick="startOver()">Start Over!</button>
+  </body>
+</html>
